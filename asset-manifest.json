@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/srihari-portfolio/static/css/main.5f361e03.chunk.css",
-    "main.js": "/srihari-portfolio/static/js/main.ff04bb06.chunk.js",
-    "main.js.map": "/srihari-portfolio/static/js/main.ff04bb06.chunk.js.map",
+    "main.css": "/srihari-portfolio/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/srihari-portfolio/static/js/main.1db4ff6d.chunk.js",
+    "main.js.map": "/srihari-portfolio/static/js/main.1db4ff6d.chunk.js.map",
     "runtime-main.js": "/srihari-portfolio/static/js/runtime-main.cf239109.js",
     "runtime-main.js.map": "/srihari-portfolio/static/js/runtime-main.cf239109.js.map",
-    "static/js/2.8ae5ed0c.chunk.js": "/srihari-portfolio/static/js/2.8ae5ed0c.chunk.js",
-    "static/js/2.8ae5ed0c.chunk.js.map": "/srihari-portfolio/static/js/2.8ae5ed0c.chunk.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/srihari-portfolio/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.773a4ff2.chunk.js": "/srihari-portfolio/static/js/2.773a4ff2.chunk.js",
+    "static/js/2.773a4ff2.chunk.js.map": "/srihari-portfolio/static/js/2.773a4ff2.chunk.js.map",
     "index.html": "/srihari-portfolio/index.html",
-    "precache-manifest.cf3ef9dbdb52671211efeb432e58105b.js": "/srihari-portfolio/precache-manifest.cf3ef9dbdb52671211efeb432e58105b.js",
+    "precache-manifest.103b3bdcf95886e310df1dd6ae66abb2.js": "/srihari-portfolio/precache-manifest.103b3bdcf95886e310df1dd6ae66abb2.js",
     "service-worker.js": "/srihari-portfolio/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/srihari-portfolio/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.8ae5ed0c.chunk.js.LICENSE.txt": "/srihari-portfolio/static/js/2.8ae5ed0c.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/srihari-portfolio/static/media/logo.5d5d9eef.svg"
+    "static/css/2.829c9cb5.chunk.css.map": "/srihari-portfolio/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/srihari-portfolio/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.773a4ff2.chunk.js.LICENSE.txt": "/srihari-portfolio/static/js/2.773a4ff2.chunk.js.LICENSE.txt",
+    "static/media/scriptina.regular.png": "/srihari-portfolio/static/media/scriptina.regular.caa9960d.png",
+    "static/media/sri.jpg": "/srihari-portfolio/static/media/sri.e6178957.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.cf239109.js",
-    "static/js/2.8ae5ed0c.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.ff04bb06.chunk.js"
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.773a4ff2.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.1db4ff6d.chunk.js"
   ]
 }
