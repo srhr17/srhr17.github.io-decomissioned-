@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/srihari-portfolio/static/css/main.5f361e03.chunk.css",
+    "main.js": "/srihari-portfolio/static/js/main.ff04bb06.chunk.js",
+    "main.js.map": "/srihari-portfolio/static/js/main.ff04bb06.chunk.js.map",
+    "runtime-main.js": "/srihari-portfolio/static/js/runtime-main.cf239109.js",
+    "runtime-main.js.map": "/srihari-portfolio/static/js/runtime-main.cf239109.js.map",
+    "static/js/2.8ae5ed0c.chunk.js": "/srihari-portfolio/static/js/2.8ae5ed0c.chunk.js",
+    "static/js/2.8ae5ed0c.chunk.js.map": "/srihari-portfolio/static/js/2.8ae5ed0c.chunk.js.map",
+    "index.html": "/srihari-portfolio/index.html",
+    "precache-manifest.cf3ef9dbdb52671211efeb432e58105b.js": "/srihari-portfolio/precache-manifest.cf3ef9dbdb52671211efeb432e58105b.js",
+    "service-worker.js": "/srihari-portfolio/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/srihari-portfolio/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.8ae5ed0c.chunk.js.LICENSE.txt": "/srihari-portfolio/static/js/2.8ae5ed0c.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/srihari-portfolio/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf239109.js",
+    "static/js/2.8ae5ed0c.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.ff04bb06.chunk.js"
+  ]
+}
