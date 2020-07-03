@@ -6,8 +6,54 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import uc from './uc.jpg';
 import acheiv1 from './achiev1.png';
-import acheiv2 from './achiev2.pdf';
+import acheiv2 from './achiev2.JPG';
+import acheiv3 from './achiev3.JPG';
+import acheiv4 from './achiev4.JPG';
+import acheiv5 from './achiev5.JPG';
+import acheiv6 from './achiev6.JPG';
+import acheiv7 from './achiev7.JPG';
+import acheiv8 from './achiev8.JPG';
+import acheiv9 from './achiev9.JPG';
+import acheiv10 from './achiev10.JPG';
+import acheiv11 from './achiev11.JPG';
+import skills from './skills.png';
+import chrome from './chrome.png';
+import dbms from './dbms.png';
+import ml from './ml.svg';
+import prog from './prog.svg';
+import Resume from './resume.js';
+import contact from './contact.png';
+import git from './git.png';
+import phone from './phone.png';
+import mail from './mail.png';
+import link from './link.png';
+import { bounce } from 'react-animations';
+import Radium, { StyleRoot } from 'radium';
+
+const styles = {
+	bounce1: {
+		animation: 'x 1s',
+		height: '70px',
+		animationName: Radium.keyframes(bounce, 'bounce')
+	},
+	bounce2: {
+		animation: 'x 2s',
+		height: '70px',
+		animationName: Radium.keyframes(bounce, 'bounce')
+	},
+	bounce3: {
+		animation: 'x 3s',
+		height: '70px',
+		animationName: Radium.keyframes(bounce, 'bounce')
+	},
+	bounce4: {
+		animation: 'x 4s',
+		height: '70px',
+		animationName: Radium.keyframes(bounce, 'bounce')
+	}
+};
 
 class App extends Component {
 	constructor(props) {
@@ -62,6 +108,8 @@ class App extends Component {
 					<br />
 
 					<img class="rounded mx-auto d-block img-fluid" src={aloha} />
+					<br />
+					<Resume />
 
 					<div class="row m-5 ">
 						<div class="col-*-* ">
@@ -223,23 +271,157 @@ class App extends Component {
 					{/* hello */}
 					<img class="rounded mx-auto d-block img-fluid" src={acheiv1} />
 					<br />
-					<Carousel>
-						<div>
-							<img src={acheiv2} />
-							<p className="legend">Legend 1</p>
+					<div class="m-5">
+						<Carousel>
+							<div>
+								<img src={acheiv2} />
+							</div>
+							<div>
+								<img src={acheiv3} />
+							</div>
+							<div>
+								<img src={acheiv4} />
+							</div>
+							<div>
+								<img src={acheiv5} />
+							</div>
+							<div>
+								<img src={acheiv6} />
+							</div>
+							<div>
+								<img src={acheiv7} />
+							</div>
+							<div>
+								<img src={acheiv8} />
+							</div>
+							<div>
+								<img src={acheiv9} />
+							</div>
+							<div>
+								<img src={acheiv10} />
+							</div>
+							<div>
+								<img src={acheiv11} />
+							</div>
+						</Carousel>
+					</div>
+					<br />
+					<br />
+					<img class="rounded mx-auto d-block img-fluid" src={skills} />
+					<br />
+					<br />
+					<div class="row m-5 ">
+						<div class="row m-5">
+							<img class="rounded mx-auto d-block img-fluid" style={{ height: '70px' }} src={chrome} />
+							<br />
+							<pre>
+								<h1 class="text-right text-info">
+									<kbd>
+										<ReactTypingEffect typingDelay="500ms" text="Web Development" />
+									</kbd>
+								</h1>
+							</pre>
 						</div>
-						<div>
-							<img src="./back.jpg" />
-							<p className="legend">Legend 2</p>
+						<div class="row m-5">
+							<img class="rounded mx-auto d-block img-fluid" style={{ height: '70px' }} src={dbms} />
+							<br />
+							<pre>
+								<h1 class="text-right text-info">
+									<kbd>
+										<ReactTypingEffect typingDelay="500ms" text="Database Management" />
+									</kbd>
+								</h1>
+							</pre>
 						</div>
-						<div>
-							<img src={sri} />
-							<p className="legend">Legend 3</p>
-						</div>
-					</Carousel>
-					{/* hello */}
 
+						<div class="row m-5">
+							<img class="rounded mx-auto d-block img-fluid" style={{ height: '70px' }} src={ml} />
+							<br />
+							<pre>
+								<h1 class="text-right text-info">
+									<kbd>
+										<ReactTypingEffect
+											typingDelay="500ms"
+											text={[ 'Machine Learning', 'Neural Network', 'Deep Learning' ]}
+										/>
+									</kbd>
+								</h1>
+							</pre>
+						</div>
+
+						<div class="row m-5">
+							<img class="rounded mx-auto d-block img-fluid" style={{ height: '70px' }} src={prog} />
+							<br />
+							<pre>
+								<h1 class="text-right text-info">
+									<kbd>
+										<ReactTypingEffect
+											typingDelay="500ms"
+											text={[
+												'Python',
+												'Keras',
+												'JAVA',
+												'React JS',
+												'Node JS',
+												'REST API',
+												'AWS'
+											]}
+										/>
+									</kbd>
+								</h1>
+							</pre>
+						</div>
+					</div>
+					<br />
+					<br />
+					<img class="rounded mx-auto d-block img-fluid" src={contact} />
+					<br />
+					<br />
+					<br />
+					<br />
+					<div class="row  " style={{ marginLeft: '25%' }}>
+						<div class="col-2">
+							<a href="https://www.linkedin.com/in/sri-hari-s-33107446/">
+								<img class="rounded mx-auto d-block img-fluid" style={styles.bounce1} src={link} />
+							</a>
+						</div>
+						<div class="col-2">
+							<a href="https://github.com/srhr17">
+								<img class="rounded mx-auto d-block img-fluid" style={styles.bounce2} src={git} />
+							</a>
+						</div>
+
+						<div class="col-2">
+							<a href="mailto:srhr1999@gmail.com">
+								<img class="rounded mx-auto d-block img-fluid" style={styles.bounce3} src={mail} />
+							</a>
+						</div>
+
+						<div class="col-2">
+							<a href="tel:+919443305978">
+								<img class="rounded mx-auto d-block img-fluid" style={styles.bounce4} src={phone} />
+							</a>
+						</div>
+					</div>
+					<br />
+					<br />
+					<br />
+					<br />
+					<Resume />
 					{/* hello */}
+					{/* <img style={{ marginLeft: '30%' }} src={uc} /> */}
+					{/* hello */}
+					<br />
+					<br />
+					<br />
+					<br />
+					<p class="m-3">
+						<kbd>Copyright © Sri Hari 2020</kbd>
+					</p>
+					<br />
+					<br />
+					<br />
+					<br />
 				</div>
 			</body>
 		);
