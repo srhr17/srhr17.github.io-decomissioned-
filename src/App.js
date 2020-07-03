@@ -7,6 +7,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import uc from './uc.jpg';
+
 import acheiv1 from './achiev1.png';
 import acheiv2 from './achiev2.JPG';
 import acheiv3 from './achiev3.JPG';
@@ -31,6 +32,8 @@ import mail from './mail.png';
 import link from './link.png';
 import { bounce } from 'react-animations';
 import Radium, { StyleRoot } from 'radium';
+import Bounce from 'react-reveal/Bounce';
+import Zoom from 'react-reveal/Zoom';
 
 const styles = {
 	bounce1: {
@@ -379,30 +382,40 @@ class App extends Component {
 					<br />
 					<br />
 					<br />
-					<div class="row  " style={{ marginLeft: '25%' }}>
-						<div class="col-2">
-							<a href="https://www.linkedin.com/in/sri-hari-s-33107446/">
-								<img class="rounded mx-auto d-block img-fluid" style={styles.bounce1} src={link} />
-							</a>
-						</div>
-						<div class="col-2">
-							<a href="https://github.com/srhr17">
-								<img class="rounded mx-auto d-block img-fluid" style={styles.bounce2} src={git} />
-							</a>
-						</div>
 
-						<div class="col-2">
-							<a href="mailto:srhr1999@gmail.com">
-								<img class="rounded mx-auto d-block img-fluid" style={styles.bounce3} src={mail} />
-							</a>
-						</div>
+					<div class="row" style={{ marginLeft: '38%' }}>
+						<Bounce>
+							<div class="col-2">
+								<a href="https://www.linkedin.com/in/sri-hari-s-33107446/">
+									<img class="rounded mx-auto d-block img-fluid" style={styles.bounce1} src={link} />
+								</a>
+							</div>
+						</Bounce>
+						<Bounce>
+							<div class="col-2">
+								<a href="https://github.com/srhr17">
+									<img class="rounded mx-auto d-block img-fluid" style={styles.bounce2} src={git} />
+								</a>
+							</div>
+						</Bounce>
 
-						<div class="col-2">
-							<a href="tel:+919443305978">
-								<img class="rounded mx-auto d-block img-fluid" style={styles.bounce4} src={phone} />
-							</a>
-						</div>
+						<Bounce>
+							<div class="col-2">
+								<a href="mailto:srhr1999@gmail.com">
+									<img class="rounded mx-auto d-block img-fluid" style={styles.bounce3} src={mail} />
+								</a>
+							</div>
+						</Bounce>
+
+						<Bounce>
+							<div class="col-2">
+								<a href="tel:+919443305978">
+									<img class="rounded mx-auto d-block img-fluid" style={styles.bounce4} src={phone} />
+								</a>
+							</div>
+						</Bounce>
 					</div>
+
 					<br />
 					<br />
 					<br />
@@ -413,6 +426,16 @@ class App extends Component {
 					{/* hello */}
 					<br />
 					<br />
+					<Zoom>
+						<h4 style={{ marginLeft: '10%' }}>
+							<kbd>
+								This site was done with love using React, Please find the
+								<a href="https://github.com/srhr17/srihari-portfolio">
+									<kbd> Code for this Portfolio here!!</kbd>
+								</a>
+							</kbd>
+						</h4>
+					</Zoom>
 					<br />
 					<br />
 					<p class="m-3">
