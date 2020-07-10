@@ -18,6 +18,7 @@
 		"react-git-card": "0.0.2",
 		"react-github-card": "^1.0.1",
 		"react-responsive-carousel": "^3.2.9",
+		"react-responsive-decorator": "0.0.1",
 		"react-reveal": "^1.2.2",
 		"react-scripts": "3.4.1",
 		"react-typing-effect": "^2.0.3",

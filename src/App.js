@@ -33,7 +33,7 @@ import { bounce } from 'react-animations';
 import Radium, { StyleRoot } from 'radium';
 import Bounce from 'react-reveal/Bounce';
 import Zoom from 'react-reveal/Zoom';
-
+import Responsive from 'react-responsive-decorator';
 const styles = {
 	bounce1: {
 		animation: 'x 1s',
@@ -484,4 +484,4 @@ class App extends Component {
 	}
 }
 
-export default App;
+export default Responsive(App);
