@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5998585c149403d4677c59d083422011",
+    "revision": "955a5d39ffb07f1c01fbb53c28c6cc4d",
     "url": "/srihari-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/srihari-portfolio/static/css/2.6e338358.chunk.css"
   },
   {
-    "revision": "431dbe88df0ebedffb12",
+    "revision": "f2e18bba15dd6f58896e",
     "url": "/srihari-portfolio/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/srihari-portfolio/static/js/2.1f6a1270.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "431dbe88df0ebedffb12",
-    "url": "/srihari-portfolio/static/js/main.0f4467f0.chunk.js"
+    "revision": "f2e18bba15dd6f58896e",
+    "url": "/srihari-portfolio/static/js/main.ee5b2f8e.chunk.js"
   },
   {
     "revision": "d8689e2d144e24e84346",
