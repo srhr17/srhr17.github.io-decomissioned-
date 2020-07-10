@@ -121,7 +121,7 @@ class App extends Component {
 					<Resume />
 
 					<div class="row m-5 ">
-						<div class="col-*-* ">
+						<div class="col-*-* " style={{ marginLeft: '38%' }}>
 							<pre>
 								<h1 class="text-right text-info">
 									I was named{' '}
@@ -155,7 +155,7 @@ class App extends Component {
 					<br />
 					<br />
 
-					<div class="row m-4 ">
+					<div class="row m-4 " style={{ marginLeft: '38%' }}>
 						<div class="col-*-* ">
 							<pre>
 								<h1 class="text-center text-warning">
