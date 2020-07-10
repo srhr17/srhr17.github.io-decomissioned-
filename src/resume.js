@@ -7,7 +7,7 @@ class resume extends Component {
 	}
 	render() {
 		return (
-			<button type="button" class="btn btn-danger mx-lg-auto d-block ">
+			<button type="button" class="btn btn-danger mx-lg-auto d-block " style={{ marginLeft: '38%' }}>
 				<a
 					class="btn btn-warning mx-lg-auto d-block btn-lg"
 					href="https://docs.google.com/document/d/1ryCufy909vksjM9Qb8lyydRfLwYrasX4GrLTvpXN340/edit?usp=sharing"

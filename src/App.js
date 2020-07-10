@@ -405,7 +405,7 @@ class App extends Component {
 					<div class="row" style={{ marginLeft: '38%' }}>
 						<Bounce>
 							<div class="col-2">
-								<a href="https://www.linkedin.com/in/sri-hari-s-33107446/">
+								<a href="https://www.linkedin.com/in/srihari17/">
 									<img class="rounded mx-auto d-block img-fluid" style={styles.bounce1} src={link} />
 								</a>
 							</div>
