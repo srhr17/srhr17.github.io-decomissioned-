@@ -7,7 +7,6 @@ import 'react-vertical-timeline-component/style.min.css';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import uc from './uc.jpg';
-
 import acheiv1 from './achiev1.png';
 import acheiv2 from './achiev2.JPG';
 import acheiv3 from './achiev3.JPG';
@@ -74,7 +73,14 @@ class App extends Component {
 	// 		setTimeout(typeWriter, speed);
 	// 	}
 	// };
+	componentDidMount() {
+		const script = document.createElement('script');
+		script.type = 'text/javascript';
+		script.src = 'https://platform.linkedin.com/badges/js/profile.js';
+		script.async = false;
 
+		document.body.appendChild(script);
+	}
 	render() {
 		return (
 			<body
@@ -124,6 +130,19 @@ class App extends Component {
 									</kbd>
 								</h1>
 							</pre>
+						</div>
+						<div
+							class="LI-profile-badge"
+							data-version="v1"
+							data-size="medium"
+							data-locale="en_US"
+							data-type="horizontal"
+							data-theme="dark"
+							data-vanity="srihari17"
+						>
+							<a class="LI-simple-link" href="https://in.linkedin.com/in/srihari17?trk=profile-badge">
+								Sri Hari S
+							</a>
 						</div>
 
 						<div class="col-*-* ">
@@ -417,10 +436,10 @@ class App extends Component {
 					</div>
 
 					<br />
-					<br />
-					<br />
+
 					<br />
 					<Resume />
+
 					{/* hello */}
 					{/* <img style={{ marginLeft: '30%' }} src={uc} /> */}
 					{/* hello */}
@@ -437,6 +456,20 @@ class App extends Component {
 						</h4>
 					</Zoom>
 					<br />
+					<div
+						class="LI-profile-badge col-2"
+						data-version="v1"
+						data-size="medium"
+						data-locale="en_US"
+						data-type="vertical"
+						data-theme="dark"
+						data-vanity="srihari17"
+						style={{ marginLeft: '38%' }}
+					>
+						<a class="LI-simple-link" href="https://in.linkedin.com/in/srihari17?trk=profile-badge">
+							Sri Hari S
+						</a>
+					</div>
 					<br />
 					<p class="m-3">
 						<kbd>Copyright © Sri Hari 2020</kbd>
