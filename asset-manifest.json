@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/srihari-portfolio/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/srihari-portfolio/static/js/main.8fb88f93.chunk.js",
-    "main.js.map": "/srihari-portfolio/static/js/main.8fb88f93.chunk.js.map",
+    "main.js": "/srihari-portfolio/static/js/main.bbdcab1c.chunk.js",
+    "main.js.map": "/srihari-portfolio/static/js/main.bbdcab1c.chunk.js.map",
     "runtime-main.js": "/srihari-portfolio/static/js/runtime-main.cf239109.js",
     "runtime-main.js.map": "/srihari-portfolio/static/js/runtime-main.cf239109.js.map",
     "static/css/2.6e338358.chunk.css": "/srihari-portfolio/static/css/2.6e338358.chunk.css",
-    "static/js/2.1f6a1270.chunk.js": "/srihari-portfolio/static/js/2.1f6a1270.chunk.js",
-    "static/js/2.1f6a1270.chunk.js.map": "/srihari-portfolio/static/js/2.1f6a1270.chunk.js.map",
+    "static/js/2.4064dbf6.chunk.js": "/srihari-portfolio/static/js/2.4064dbf6.chunk.js",
+    "static/js/2.4064dbf6.chunk.js.map": "/srihari-portfolio/static/js/2.4064dbf6.chunk.js.map",
     "index.html": "/srihari-portfolio/index.html",
-    "precache-manifest.c9598cc03bcf5ddb78d88ff93fdb962f.js": "/srihari-portfolio/precache-manifest.c9598cc03bcf5ddb78d88ff93fdb962f.js",
+    "precache-manifest.5f1dc39d68d469fc877eb4b10673eb62.js": "/srihari-portfolio/precache-manifest.5f1dc39d68d469fc877eb4b10673eb62.js",
     "service-worker.js": "/srihari-portfolio/service-worker.js",
     "static/css/2.6e338358.chunk.css.map": "/srihari-portfolio/static/css/2.6e338358.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/srihari-portfolio/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.1f6a1270.chunk.js.LICENSE.txt": "/srihari-portfolio/static/js/2.1f6a1270.chunk.js.LICENSE.txt",
+    "static/js/2.4064dbf6.chunk.js.LICENSE.txt": "/srihari-portfolio/static/js/2.4064dbf6.chunk.js.LICENSE.txt",
     "static/media/achiev1.png": "/srihari-portfolio/static/media/achiev1.87a15067.png",
     "static/media/achiev10.JPG": "/srihari-portfolio/static/media/achiev10.16c375a0.JPG",
     "static/media/achiev11.JPG": "/srihari-portfolio/static/media/achiev11.e4e8b5ef.JPG",
@@ -39,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.cf239109.js",
     "static/css/2.6e338358.chunk.css",
-    "static/js/2.1f6a1270.chunk.js",
+    "static/js/2.4064dbf6.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.8fb88f93.chunk.js"
+    "static/js/main.bbdcab1c.chunk.js"
   ]
 }
