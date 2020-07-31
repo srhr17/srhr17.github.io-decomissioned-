@@ -34,6 +34,7 @@ import Radium, { StyleRoot } from 'radium';
 import Bounce from 'react-reveal/Bounce';
 import Zoom from 'react-reveal/Zoom';
 import Responsive from 'react-responsive-decorator';
+import MetaTags from 'react-meta-tags';
 const styles = {
 	bounce1: {
 		animation: 'x 1s',
@@ -89,6 +90,10 @@ class App extends Component {
 					width: '1350px'
 				}}
 			>
+				<MetaTags>
+				
+				<meta name="viewport" content="width=device-width" user-scalable="no" />
+          </MetaTags>
 				<div>
 					<br />
 					<br />
